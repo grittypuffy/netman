@@ -1,16 +1,24 @@
-# netman
+# NetMan
 
 A security-focused network manager for Android
 
-## Getting Started
+# Features
 
-This project is a starting point for a Flutter application.
+- Create random passwords with SSID
+- Generate QR code for WPA2 networks
 
-A few resources to get you started if this is your first Flutter project:
+# Screenshots
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Home Page
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Regular
+
+![home_page](/docs/static/images/home_1.jpg "Home Page")
+
+### With Keyboard Input
+
+![home_page_with_keyboard_input](/docs/static/images/home.jpg "Home Page with Keyboard Input")
+
+## QR Code Popup
+
+![qr_code_popup](/docs/static/images/qr_popup.jpg "QR Code Popup showing SSID, Password and QR code")
