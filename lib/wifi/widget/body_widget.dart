@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'wpa2_toggle.dart';
 import 'ssid_widget.dart';
 import 'password_widget.dart';
-import 'qr_generate.dart';
 
 class TitleText extends StatelessWidget {
   const TitleText({super.key});
