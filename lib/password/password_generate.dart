@@ -1,17 +1,16 @@
 import 'dart:math';
 
 void main(){
-  passwordGenerate();
+  passwordGenerate(20);
 }
 
 String passwordGenerate(int length){
-  final _length = length;
-  final lowerCase = 'abcdefghijklmnopqrstuvwxyz';
-  final upperCase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-  final numbers = '0123456789';
-  final symbols = '!@#\$%^&*()_+-={}[]:;<,>./?\'"~`|\"';
+  const lowerCase = 'abcdefghijklmnopqrstuvwxyz';
+  const upperCase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+  const numbers = '0123456789';
+  const symbols = '!@#\$%^&*()_+-={}[]:;<,>./?\'"~`|"';
   String characters = '$lowerCase$upperCase$numbers$symbols';
-  return List.generate(_length, (index){
+  return List.generate(length, (index){
       final random = Random.secure().nextInt(characters.length);
       return characters[random];
   }).join('');

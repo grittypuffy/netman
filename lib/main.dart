@@ -22,7 +22,7 @@ class HomePage extends StatelessWidget {
         ),
      themeMode: ThemeMode.dark,
      debugShowCheckedModeBanner: false,
-     home: ConfigureWiFi(),
+     home: const ConfigureWiFi(),
    );
  }
 }

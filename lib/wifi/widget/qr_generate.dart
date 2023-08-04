@@ -20,7 +20,7 @@ class _QRGenerateState extends State<QRGenerate> {
               content: const Column(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 crossAxisAlignment: CrossAxisAlignment.center,
-                children: const [
+                children: [
                   Text('SSID: Home-Wifi'),
                   Text('WPA-2 PSK: 63GDieb^27!@&hdUWI18'),
                   Image(image: AssetImage('assets/images/qr.png')),

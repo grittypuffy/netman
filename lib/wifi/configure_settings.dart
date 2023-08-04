@@ -5,6 +5,6 @@ class ConfigureWiFi extends StatelessWidget{
   const ConfigureWiFi({super.key});
   @override
   Widget build(BuildContext context){
-    return ConfigureWiFiWidget();
+    return const ConfigureWiFiWidget();
   }
 }
