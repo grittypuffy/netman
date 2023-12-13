@@ -1,10 +1,6 @@
 import 'dart:math';
 
-void main() {
-  passwordGenerate(length: 20);
-}
-
-String passwordGenerate({int length = 20}) {
+String passwordGenerate({int length=20}) {
   const lowerCase = 'abcdefghijklmnopqrstuvwxyz';
   const upperCase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
   const numbers = '0123456789';
